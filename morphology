@@ -1,31 +1,77 @@
-Morphology of the Diagram
-Main Process Flow
+# Morphology of the Assignment Feedback Workflow System
 
-Student completes homework.
-– The student finishes the assigned work.
+This document breaks the system down into its main structural layers and key components.
 
-Student uploads assignment.
-– The student submits the assignment through the system.
+---
 
-System notifies instructor.
-– The system sends a notification to the instructor.
+## 1. Information Structure (Data Layer)
 
-Instructor uploads feedback and grade.
-– The instructor reviews the assignment and provides both feedback and a grade.
+The system uses and processes the following types of information:
 
-Student views feedback and updates learning.
-– The student checks the feedback and adjusts their learning accordingly.
+- **Assignment Data:** uploaded files, timestamps, student identifiers.
+- **Instructor Feedback:** text comments, grading score, revision notes.
+- **System Notifications:** triggers sent to instructors or students.
+- **Learning Updates:** student activity logs after viewing feedback.
 
-Rework (Possible Outcome).
-– If necessary, the student revises or reworks the assignment.
+These data objects move through the workflow and trigger actions or decisions.
 
-Branches / Identified Issues
+---
 
-Delay (Red Triangle)
-– A delay may occur in the instructor’s grading or feedback process.
+## 2. Technical Structure (Execution / Platform Layer)
 
-Confusion (Yellow Triangle)
-– The student may misunderstand the feedback, causing confusion.
+- Runs on a **web-based Learning Management System (LMS)**.
+- Accessible via desktop and mobile browsers.
+- Uses:
+  - Server-side backend for handling uploads and notifications.
+  - Database for storing assignments, feedback, and user information.
+  - Notification service for alerting instructors and students.
 
-Rework (Blue Triangle)
-– The student may need to redo or update their assignment based on feedback.
+The system relies on standard educational platform infrastructure.
+
+---
+
+## 3. Organisational Structure (Human Interaction Layer)
+
+The primary actors interacting with the workflow are:
+
+- **Students**
+  - Complete homework.
+  - Upload assignments.
+  - View grades and feedback.
+  - Perform rework when necessary.
+
+- **Instructors**
+  - Receive system notifications.
+  - Review assignments.
+  - Upload feedback and grades.
+
+- **System**
+  - Acts as an automated mediator between students and instructors.
+
+---
+
+## 4. Optional Layer – Technological Tools Used
+
+- File upload service  
+- Notification engine  
+- Database management system  
+- Web user interface for both student and instructor dashboards  
+
+---
+
+## 5. Optional Layer – Spatial Layer
+
+- No physical location required.  
+- Entire workflow occurs in a **virtual online environment** accessible globally.
+
+---
+
+## Summary Diagram (Reference)
+
+The diagram visually represents the flow:
+1. Student completes homework.  
+2. Student uploads assignment.  
+3. System notifies instructor.  
+4. Instructor uploads feedback and grade.  
+5. Student views feedback and updates learning.  
+6. Rework loop (optional).  
