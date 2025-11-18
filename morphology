@@ -1,10 +1,10 @@
-# Morphology of the Assignment Feedback Workflow System
+Morphology of the Assignment Feedback Workflow System
 
 This document breaks the system down into its main structural layers and key components.
 
 ---
 
-## 1. Information Structure (Data Layer)
+ 1. Information Structure (Data Layer)
 
 The system uses and processes the following types of information:
 
@@ -17,9 +17,9 @@ These data objects move through the workflow and trigger actions or decisions.
 
 ---
 
-## 2. Technical Structure (Execution / Platform Layer)
+ 2. Technical Structure (Execution / Platform Layer)
 
-- Runs on a **web-based Learning Management System (LMS)**.
+- Runs on a **web-based Learning Management System (LMS).
 - Accessible via desktop and mobile browsers.
 - Uses:
   - Server-side backend for handling uploads and notifications.
@@ -30,27 +30,27 @@ The system relies on standard educational platform infrastructure.
 
 ---
 
-## 3. Organisational Structure (Human Interaction Layer)
+ 3. Organisational Structure (Human Interaction Layer)
 
 The primary actors interacting with the workflow are:
 
-- **Students**
+- Students
   - Complete homework.
   - Upload assignments.
   - View grades and feedback.
   - Perform rework when necessary.
 
-- **Instructors**
+- Instructors
   - Receive system notifications.
   - Review assignments.
   - Upload feedback and grades.
 
-- **System**
+- System
   - Acts as an automated mediator between students and instructors.
 
 ---
 
-## 4. Optional Layer – Technological Tools Used
+4. Optional Layer – Technological Tools Used
 
 - File upload service  
 - Notification engine  
@@ -59,14 +59,14 @@ The primary actors interacting with the workflow are:
 
 ---
 
-## 5. Optional Layer – Spatial Layer
+ 5. Optional Layer – Spatial Layer
 
 - No physical location required.  
 - Entire workflow occurs in a **virtual online environment** accessible globally.
 
 ---
 
-## Summary Diagram (Reference)
+ Summary Diagram (Reference)
 
 The diagram visually represents the flow:
 1. Student completes homework.  
