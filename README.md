@@ -1,8 +1,12 @@
-# Project-Management-in-IT
+# Assignment Feedback Workflow System
 
-Assignment Feedback Workflow Diagram
+**Team Members:**  
+- Suhrab Rahimi  
+- Yağız Gönenç  
 
-Authors: Suhrab Rahimi, Yağız Gönenç
-Project Type: Process Workflow Diagram
-Description:
-This diagram illustrates the end-to-end workflow of how a student submits an assignment, how the instructor provides feedback, and how the student uses that feedback to improve learning. It also highlights potential issues that may occur during the process.
+**System Name:** Assignment Feedback Workflow System
+
+**System Goal :**  
+To provide a clear, efficient workflow for submitting assignments, delivering instructor feedback, and supporting continuous student learning.
+
+This repository contains a simple system model describing how students submit homework, how instructors respond, and how feedback cycles occur.  
